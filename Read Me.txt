@@ -1,0 +1,31 @@
+Follow the following steps for succesfully running the Contact Tracing Web Portal
+
+1. Open Visual Studio Code 
+
+2. Click on File-> Open Folder : It will open a explorer window
+
+3. In the explorer window, navigate and select the "Web Portal Code" folder and click "Select Folder"
+
+Now the project has been successfully imported in VS Code.
+
+To run the Web Server
+
+4. Click on Terminal->New Terminal : A new Command Line Interface open on the bottom of screen.
+
+Type the following commands one by one and press Enter each time.
+
+python -m venv env
+<Enter>
+
+env\Scripts\activate
+<Enter>
+
+python manage.py runserver
+<Enter>
+
+To open the Website
+
+5. Open web browser and type 
+https://127.0.0.1:8000
+
+The portal is sucessfully running.
